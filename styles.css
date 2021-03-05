@@ -4,16 +4,16 @@
   .wrapper {
   margin: auto;
   width: 80%;
-  #border: dashed 1px red;
+// border: dashed 1px red;
 }
 .logo, .menu {
-  display: inline-block;
-    #border: dashed 1px red;
-    padding: 40px 0;
+    display: inline-block;
+//    border: dashed 1px red;
 }
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 40px 0;
 }
 .menu {
   display: flex;
@@ -25,15 +25,56 @@
 .menu__item:last-child {
   padding-right: 0;
 }
+.logo{
+  position: relative;
+  font-family: pt_serif, arial, helvetica, sans-serif;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  width: 190px;
+  height: 35px;
+//  background: url('img/logo.svg');
+}
+
+.logo__circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: .7;
+}
+.Logo__circle_color_dark-blue {
+  background: #0056EC;
+}
+
+.Logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+}
 .main-content {
+  padding-top: 206px;
+  width: 37%;
 
 }
 .main-content__title {
-
+  margin-bottom: 40px;
+  font-family: pt_serif, arial, helvetica, sans-serif;
+  font: bold 66px/87px pt_serifregular, arial, helvetica, sans-serif;
+  width: 567px;
+  height: 225px;
 }
 .main-content__description {
-
+  font-family: roboto, arial, helvetica, sans-serif;
+  font:  22px/26px pt_serif, arial, helvetica, sans-serif;
+  width: 455px;
+  height: 52px;
 }
 .main-content__button {
-  m
+  font-family: roboto, arial, helvetica, sans-serif;
+  font:  18px/21px pt_serif, arial, helvetica, sans-serif;
+  width: 250px;
+  height: 29px;
+
 }
