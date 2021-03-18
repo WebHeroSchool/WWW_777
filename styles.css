@@ -14,7 +14,8 @@
   display: flex;
   justify-content: space-between;
   padding: 32px 0;
-  margin-bottom: 209px;
+/*  padding-bottom: 26px;*/
+  margin-bottom: 135px;
 }
 
 .menu {
@@ -102,9 +103,10 @@ color: #000000;
 
 .main {
   padding: 0 63% 150px 0;
+  padding-top: 74px;
   background: top right no-repeat url('img/frame (1).svg');
   background-size: 50%;
-  background-position: bottom 11px right 1px;
+  background-position: bottom 17px right 4px;
 
 }
 .main__title {
@@ -117,7 +119,7 @@ color: #000000;
   background: #ECF3FF;
 }
 .main__subtitle {
-  margin: 0 0 41px 0;
+  margin: 0 0 41px -2px;
   font:  22px/26px  roboto400, arial, helvetica, sans-serif;
   width: 455px;
   height: 52px;
