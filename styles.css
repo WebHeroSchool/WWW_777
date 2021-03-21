@@ -116,7 +116,9 @@ color: #000000;
   height: 255px;
 }
 .main__title-text_highlight {
-  background: #ECF3FF;
+  background: linear-gradient(
+180deg
+,rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 .main__subtitle {
   margin: 0 0 41px -2px;
