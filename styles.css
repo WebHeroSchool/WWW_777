@@ -6,9 +6,9 @@
   max-width: 80%;
 /* border: dashed 1px red;*/
 }
-.logo, .menu {
+.logo, .menu, .hamburger-menu {
     display: inline-block;
-  /*   border: dashed 1px red;*/
+  /* border: dashed 1px red;*/
 }
 .header {
   display: flex;
@@ -36,6 +36,10 @@ color: #000000;
   text-decoration: none;
   transition: opacity .5s;
 }
+
+/*.hamburger-menu {
+ margin: -34px -13px 0 0;
+}*/
 
 .menu__item:after {
   position: absolute;
@@ -155,7 +159,7 @@ color: #000000;
 
   /*добавляем отсуп блоку main*/
   .header {
-    margin-bottom: 28px;
+    margin-bottom: 14px;
   }
 
   /*картинку переносим вверх блока по центру*/
@@ -164,22 +168,24 @@ color: #000000;
   padding: 87% 0 0;
   background-size: 98%;
   background-position: top center;
-  background-position-y: -13px;
+  background-position-y: 0px;
   }
 
   /*меняем шрифты для основного заголовка, подзаголовка и кнопки как в макете
   на мобильном устройтсве*/
   .main__title {
-    margin-bottom: 52px;
+    margin-top: 10px;
+    margin-bottom: 55px;
     margin-left: 13px;
     width: 267px;
     height: 96px;
+    word-wrap: 10px;
     font: bold 30px/40px pt_serif, arial, helvetica, sans-serif;
   }
 
   .main__title-text_highlight{
     background-position: bottom 10px right 20px;
-    
+
   }
 
   .main__subtitle {
@@ -207,6 +213,133 @@ color: #000000;
 .logo__text {
   display: none;
 }
+.hamburger-menu {
+  display: block;
+  position: relative;
+  margin: -34px -13px 0 0;
+/*  border: dashed 1px red;*/
+  }
+
+/*создаем бургер-меню*/
+
+/* скрываем чекбокс */
+#menu__toggle {
+  opacity: 0;
+/*display: none;*/
+
+}
 
 
+/* стилизуем кнопку */
+.menu__btn {
+/*  border: dashed 1px red;*/
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+ position: fixed;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+
+/*  margin-left: 325px;*/
+/*  margin-top: 22px;*/
+}
+
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+display: block;
+position: absolute;
+width: 100%;
+height: 3px;
+background-color: #0056EC;
+opacity: 1;
+transition-duration: .5s;
+}
+
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+
+/* контейнер меню */
+.menu__box {
+/*  border: dashed 1px red;*/
+  display: block;
+  position: fixed;
+  /*по умолчаннию будет скрыто*/
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  margin-top: 25%;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+/*  background-color: #ECEFF1;*/
+background-color: white;
+  /*opacity: 1.;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);*/
+}
+
+/* элементы меню */
+.menu-burger__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'roboto500', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  font: bold 30px/35px pt_serif, arial, helvetica, sans-serif;
+
+}
+.menu-burger__item:hover {
+ background-color: #CFD8DC;
+
+}
+
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+}
+
+/*для макета более 768px по ширине*/
+/*@media (min-width: 768px) {
+  /*скрываем меню*/
+/*  .hamburger-menu {
+    display: none;
+  }
 }
