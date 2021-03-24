@@ -149,12 +149,105 @@ color: #000000;
 }
 
 
-@media (max-width: 1366px) {
+
+@media (max-width:1024px) {
+  .hamburger-menu {
+      display: none;
+    }
+
   .wrapper {
   /*  margin: auto;*/
-width: 65%;
+   width: 80%;
+  margin-right: 162px;
+  margin-top: -3px;
+
+}
+.header {
+  margin-bottom: 108px;
+}
+
+.logo__text{
+  margin-right: 0px;
+  margin-top: 3px;
+  padding-top: 0px;
+  padding-right: 0px;
+
+}
+
+    .menu {
+    padding-top: 10px;
+    padding-right: 0px;
+    margin-right: -125px;
   }
 }
+
+.menu__item {
+  position: relative;
+  /*margin-right: 26px;*/
+  margin: 0 3px 0 23px;
+  font: 500 14px/16px 'roboto500', arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  transition: opacity .5s;
+}
+
+.main {
+  padding: 0 43% 100px 0;
+  padding-top: 0px;
+
+  background-size: 64%;
+  background-position: bottom 39px right -125px;
+}
+
+.main__title {
+  margin: 0 0 40px 0;
+  font: bold 50px/66px 'pt_serif', arial, helvetica, sans-serif;
+  width: 434px;
+  height: 195px;
+}
+.main__subtitle {
+/* margin: 0 0 41px 0px;*/
+ margin-left: 0;
+  font:  18px/21px  'roboto400', arial, helvetica, sans-serif;
+  width: 367px;
+  height: 43px;
+}
+
+.main__button {
+
+  padding-right: 23px;
+  font:  14px/16px 'roboto500', arial, helvetica, sans-serif;
+/*  color:  #fff;
+/*  background: #0056EC;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;*/
+}
+/*@media (max-width: 1366px) {
+  .wrapper {
+  /*  margin: auto;*/
+/*width: 69%;
+/*max-width: 87%;*/
+/*background-size: 55%;
+
+}
+  .header {
+    margin-bottom: 13px;
+  }
+
+.main {
+    background-position: 82% 23%;
+
+    background-size: 44%;
+    padding-right: 0;
+    padding-top: 63px;
+    padding-top: 64px;
+    margin-left: -3px;
+  }
+  .menu {
+    padding-left: 10px;
+  }
+}*/
 
 
 
@@ -361,16 +454,3 @@ transition-duration: .5s;
     .menu__box {
       display: none;
     }*/
-
-@media (max-width: 1024px) {
-  .wrapper {
-  /*  margin: auto;*/
-   width: 91%;
-  }
-
-  .menu {
-    padding-top: 5px;
-    padding-right: 0px;
-    margin-right: -5px;
-  }
-}
