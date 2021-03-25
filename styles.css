@@ -157,7 +157,7 @@ color: #000000;
 /*  height: 52px;*/
 }
 
-.main__button {
+/*.main__button {
   display: inline-block;
   padding: 18px 28px;
   font:  18px/21px 'roboto500', arial, helvetica, sans-serif;
@@ -166,7 +166,24 @@ color: #000000;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
+}*/
+.main__button {
+  display: flex;
+  font:  18px/28px 'roboto500', arial, helvetica, sans-serif;
+  width: 250px;
+  height: 57px;
+  margin-top: 42px;
+  align-items: center;
+  margin-left: 0px;
+  padding-left: 22px;
+  color:  #fff;
+  background: #0056EC;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
+
 }
+
 
 .menu__button:hover {
   opacity: .5;
@@ -245,10 +262,10 @@ color: #000000;
   /*   height: 43px;*/
    }
 
-   .main__button {
+/*   .main__button {
 /*   padding-right: 14px;
    padding-bottom: 12px;*/
-   padding: 15px 21px;
+/*   padding: 15px 21px;
      font:  14px/16px 'roboto500', arial, helvetica, sans-serif;
     max-width: 168px;
     /*  color:  #fff;
@@ -256,7 +273,21 @@ color: #000000;
      text-decoration: none;
      border-radius: 4px;
      transition: opacity .5s;*/
-   }
+/*}*/
+
+.main__button {
+  display: flex;
+  font:  14px/16px 'roboto500', arial, helvetica, sans-serif;
+  width: 168px;
+  height: 8px;
+  margin-top: 42px;
+  align-items: center;
+  margin-left: 0px;
+  padding-left: 16px;
+
+}
+
+
 
    .main__img {
      width: 515px;
@@ -360,8 +391,8 @@ border: dashed 1px red;
 
 .main__button {
   display: flex;
-  width: 193px;
-  height: 15px;
+  width: 211px;
+  height: 13px;
   margin-top: 42px;
   align-items: center;
   margin-left: 2px;
