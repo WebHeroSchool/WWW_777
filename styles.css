@@ -40,7 +40,7 @@
   transition: opacity 0.5s;
 }
 
-.menu__item:after {
+.menu__item: after {
   position: absolute;
   display: block;
   content: "";
@@ -174,7 +174,6 @@
 }
 
 @media (max-width: 1400px) {
-
   .wrapper {
     max-width: 90%;
   }
@@ -235,8 +234,7 @@
   }
 }
 
-
-@media (max-width:1050px) {
+@media (max-width: 1050px) {
   .wrapper {
     max-width: 97%;
     margin: -5px 13px 0 15px;
@@ -247,7 +245,7 @@
     padding-left: 20px;
   }
 
-  .logo__text{
+  .logo__text {
     margin-top: 3px;
   }
 
@@ -337,7 +335,7 @@
     font: bold 30px/40px 'pt_serif', arial, helvetica, sans-serif;
   }
 
-  .main__title-text_highlight{
+  .main__title-text_highlight {
     background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
   }
 
@@ -357,7 +355,6 @@
     font: 500 14px/16px 'roboto500', arial, helvetica, sans-serif;
   }
 
-  /*убираем текст из логотипа и двигаем логотип*/
   .logo {
     margin: -17px 0 -19px -21px;
   }
@@ -371,7 +368,7 @@
     margin: -29px 6px 0 0;
   }
 
-  .end{
+  .end {
     display: none;
   }
 
@@ -421,11 +418,10 @@
     text-align: center;
     word-wrap: 10px;
     background-color: white;
-    opacity: 1.;
+    opacity: 1.0;
     box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
   }
 
-  /* элементы меню */
   .menu-burger__item {
     display: block;
     padding: 13px 24px;
@@ -443,14 +439,17 @@
   #menu__toggle: checked ~ .menu__btn > span {
     transform: rotate(45deg);
   }
+
   #menu__toggle: checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
   }
+
   #menu__toggle: checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
+
   #menu__toggle: checked ~ .menu__box {
     display: block;
     left: 0;
