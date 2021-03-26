@@ -118,7 +118,7 @@
 }
 
 .main__text {
-  margin: 75px 0px 40px 0;
+  margin: 75px 0 40px 0;
 }
 
 .main__title {
@@ -145,7 +145,7 @@
   margin-top: 42px;
   align-items: center;
   padding-left: 22px;
-  color:  #fff;
+  color: #fff;
   background: #0056ec;
   text-decoration: none;
   border-radius: 4px;
@@ -158,7 +158,7 @@
 
 .end {
   width: 100%;
-  display: flex; /* используем flex для центрирования содержимого */
+  display: flex;
   justify-content: center;
   margin-top: 132px;
 }
@@ -166,21 +166,20 @@
 .end__item {
   height: 8px;
   width: 8px;
-  background-color: #C8DBFB;
+  background-color: #c8dbfb;
   border-radius: 50%;
   display: inline-block;
   margin-right: 4px;
   opacity: 0.7;
 }
 
-/*для макета менее 13668px по ширине*/
 @media (max-width: 1400px) {
 
   .wrapper {
     max-width: 90%;
   }
 
-  .header{
+  .header {
     padding-left: 23px;
   }
 
@@ -240,7 +239,7 @@
 @media (max-width:1050px) {
   .wrapper {
     max-width: 97%;
-    margin: -5px 13px 0px 15px;
+    margin: -5px 13px 0 15px;
   }
 
   .header {
@@ -269,7 +268,7 @@
   .main {
     background-size: 53%;
     background-position: bottom 41px right 37px;
-    margin-right:23px;
+    margin-right: 23px;
     margin-top: 17px;
   }
 
@@ -308,19 +307,15 @@
 }
 
 
-/*для макета менее 768px по ширине*/
 @media (max-width: 768px) {
-  /*скрываем меню*/
   .menu {
     display: none;
   }
 
-  /*добавляем отсуп блоку main*/
   .header {
     margin-bottom: 14px;
   }
 
-  /*картинку переносим вверх блока по центру*/
   .main {
     flex-direction: column-reverse;
     text-align: center;
@@ -335,10 +330,8 @@
     margin-top: -23px;
   }
 
-  /*меняем шрифты для основного заголовка, подзаголовка и кнопки как в макете
-  на мобильном устройтсве*/
   .main__title {
-    margin: -81px 0px 31px 11px;
+    margin: -81px 0 31px 11px;
     max-width: 267px;
     word-wrap: 10px;
     font: bold 30px/40px 'pt_serif', arial, helvetica, sans-serif;
@@ -366,7 +359,7 @@
 
   /*убираем текст из логотипа и двигаем логотип*/
   .logo {
-    margin: -17px 0px -19px -21px;
+    margin: -17px 0 -19px -21px;
   }
 
   .logo__text {
@@ -382,16 +375,13 @@
     display: none;
   }
 
-  /*создаем бургер-меню*/
-  /* скрываем чекбокс */
   #menu__toggle {
     opacity: 0;
   }
 
-  /* стилизуем кнопку */
   .menu__btn {
-    display: flex; /* используем flex для центрирования содержимого */
-    align-items: center;  /* центрируем содержимое кнопки */
+    display: flex;
+    align-items: center;
     position: fixed;
     width: 26px;
     height: 26px;
@@ -399,7 +389,6 @@
     z-index: 1;
   }
 
-  /* добавляем "гамбургер" */
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -407,7 +396,7 @@
     position: absolute;
     width: 100%;
     height: 3px;
-    background-color: #0056EC;
+    background-color: #0056ec;
     opacity: 1;
     transition-duration: 0.5s;
   }
@@ -421,7 +410,6 @@
     top: 8px;
   }
 
-  /* контейнер меню */
   .menu__box {
     margin: auto;
     position: absolute;
@@ -434,7 +422,7 @@
     word-wrap: 10px;
     background-color: white;
     opacity: 1.;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
   }
 
   /* элементы меню */
