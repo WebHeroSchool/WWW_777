@@ -133,13 +133,13 @@
 
 .main__subtitle {
   margin-bottom: 42px;
-  font:  22px/26px  'roboto400', arial, helvetica, sans-serif;
+  font: 22px/26px 'roboto400', arial, helvetica, sans-serif;
   max-width: 455px;
 }
 
 .main__button {
   display: flex;
-  font:  18px/28px 'roboto500', arial, helvetica, sans-serif;
+  font: 18px/28px 'roboto500', arial, helvetica, sans-serif;
   width: 250px;
   height: 57px;
   margin-top: 42px;
@@ -207,13 +207,13 @@
     word-spacing: 0.7px;
     padding-left: 1px;
     padding-top: 1px;
-    font:  18px/21px  'roboto400', arial, helvetica, sans-serif;
+    font: 18px/21px 'roboto400', arial, helvetica, sans-serif;
     max-width: 367px;
   }
 
   .main__button {
     display: flex;
-    font:  14px/16px 'roboto500', arial, helvetica, sans-serif;
+    font: 14px/16px 'roboto500', arial, helvetica, sans-serif;
     width: 193px;
     height: 44px;
     margin-top: 32px;
@@ -280,7 +280,7 @@
 
   .main__subtitle {
     margin-left: -0.5px;
-    font:  18px/22px  'roboto400', arial, helvetica, sans-serif;
+    font: 18px/22px 'roboto400', arial, helvetica, sans-serif;
     max-width: 367px;
     word-spacing: 0.66px;
   }
@@ -437,21 +437,21 @@
   }
 
   .menu-burger__item:hover {
-    background-color: #CFD8DC;
+    background-color: #cfd8dc;
   }
 
-  #menu__toggle:checked ~ .menu__btn > span {
+  #menu__toggle: checked ~ .menu__btn > span {
     transform: rotate(45deg);
   }
-  #menu__toggle:checked ~ .menu__btn > span::before {
+  #menu__toggle: checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
   }
-  #menu__toggle:checked ~ .menu__btn > span::after {
+  #menu__toggle: checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
-  #menu__toggle:checked ~ .menu__box {
+  #menu__toggle: checked ~ .menu__box {
     display: block;
     left: 0;
   }
