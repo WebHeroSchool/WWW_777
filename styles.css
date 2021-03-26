@@ -330,15 +330,15 @@ margin: 0px 0 38px 0;
 /*padding-top: 10px;
 padding-bottom: 10px;*/
   /*margin-right: -2px;*/
-  margin-right:17px;
-  margin-left: 34px;
+  margin-right:13px;
+  margin-left: 15px;
   margin-top: -5px;
 border: dashed 1px red;
 }
 
 .header {
   margin-bottom: 10px;
-  padding-left: 0px;
+  padding-left: 20px;
 /*  padding-top: 10px;
   padding-bottom: 10px;*/
   border: dashed 1px green;
@@ -355,7 +355,7 @@ border: dashed 1px red;
     .menu {
     padding-top: 10px;
     padding-right: 0px;
-    margin-right: 17px;
+    margin-right: 21px;
   }
 
 
@@ -376,11 +376,12 @@ border: dashed 1px red;
   background-size: 53%;
   background-position: bottom 41px right 37px;
   border: dashed 1px yellow;
-  margin-right:20px;
-  }
+  margin-right:23px;
+  margin-top: 17px;
+}
 
 .main__title {
-  margin: 20px 0 39px 0;
+  margin: 14px 0 37px 0;
   font: bold 50px/66px 'pt_serif', arial, helvetica, sans-serif;
   max-width: 434px;
 /*  height: 195px;*/
@@ -388,7 +389,7 @@ border: dashed 1px red;
 }
 .main__subtitle {
 /* margin: 0 0 41px 0px;*/
- margin-left: 2.1px;
+ margin-left: -0.5px;
   font:  18px/22px  'roboto400', arial, helvetica, sans-serif;
   max-width: 367px;
   word-spacing: 0.66px;
@@ -409,11 +410,12 @@ border: dashed 1px red;
 
 .main__button {
   display: flex;
-  width: 211px;
-  height: 13px;
-  margin-top: 42px;
+  width: 194px;
+  height: 44px;
+  margin-top: -1px;
   align-items: center;
-  margin-left: 2px;
+  text-align: center;
+  margin-left: 0px;
   padding-left: 16px;
 
 }
