@@ -595,6 +595,7 @@
       position: absolute;
         /*по умолчаннию будет скрыто*/
       /*  visibility: hidden;*/
+      
         display: none;
         top: 0;
         /*  left: -100%;*/
