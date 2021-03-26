@@ -424,7 +424,7 @@
     display: block;
     padding: 13px 24px;
     color: #333;
-    font-size: 30px;
+  /*  font-size: 30px;*/
     font-weight: 600;
     text-decoration: none;
     font: bold 30px/35px 'roboto500', arial, helvetica, sans-serif;
