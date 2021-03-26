@@ -116,14 +116,10 @@
   background-size: contain;
   padding-left: 300px;
   background-position: right;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .main__text{
   margin: 75px 0px 40px 0;
-  padding-right: 0px;
 }
 
 .main__title {
@@ -367,7 +363,7 @@
       margin-top: -23px;
     }
 
-  /*меняем шрифты для основного заголовка, подзаголовка и кнопки как в макете
+    /*меняем шрифты для основного заголовка, подзаголовка и кнопки как в макете
     на мобильном устройтсве*/
     .main__title {
       margin-top: -81px;
