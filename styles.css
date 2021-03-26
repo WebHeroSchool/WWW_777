@@ -432,9 +432,9 @@ padding-bottom: 10px;*/
 /*для макета менее 768px по ширине*/
 @media (max-width: 768px) {
   /*скрываем меню*/
-.body {
+/*.body {
   overflow-y: hidden;
-}
+}*/
 
 
   .menu {
