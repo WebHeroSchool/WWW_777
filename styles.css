@@ -1,25 +1,25 @@
 .title {
   font-family: Roboto, sans-serif;
 }
-  .wrapper {
+.wrapper {
   margin: 0 181px 0 187px;
-/*  max-width: 80%;*/
-/* border: dashed 1px red;*/
+  /*  max-width: 80%;*/
+  /* border: dashed 1px red;*/
 }
 .logo, .menu, /*.hamburger-menu*/ {
-    display: inline-block;
+  display: inline-block;
   /* border: dashed 1px red;*/
 }
 
 .hamburger-menu {
-    display: none;
-  }
+  display: none;
+}
 
 .header {
   display: flex;
   justify-content: space-between;
   padding: 32px 0;
-/*  padding-bottom: 26px;*/
+  /*  padding-bottom: 26px;*/
   margin-bottom: 132px;
 }
 
@@ -29,9 +29,9 @@
   margin-right: 11px;
 
   /* font-family: 'roboto500', arial, helvetica, sans-serif;
- font: 500 18px/21px roboto500, arial, helvetica, sans-serif;
-color: #000000;
-Вопрос: ко всему меню нельзя сразу указать параметры шрифта, надо их прописывать тольк к элементам? */
+  font: 500 18px/21px roboto500, arial, helvetica, sans-serif;
+  color: #000000;
+  Вопрос: ко всему меню нельзя сразу указать параметры шрифта, надо их прописывать тольк к элементам? */
 }
 
 .menu__item {
@@ -87,7 +87,7 @@ color: #000000;
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   width: 190px;
   height: 35px;
-/*background: url('img/logo.svg');*/
+  /*background: url('img/logo.svg');*/
 }
 
 
@@ -114,7 +114,7 @@ color: #000000;
 
 .main {
   display: flex;
-/*  margin-right:100px;*/
+  /*  margin-right:100px;*/
 }
 
 .main__img {
@@ -127,7 +127,7 @@ color: #000000;
   margin-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-/*  margin-top: 10px;
+  /*  margin-top: 10px;
   padding: 0 63% 150px 0;
   padding-top: 74px;
   background-size: 50%;
@@ -144,522 +144,522 @@ color: #000000;
   margin: 0 0 40px 0;
   font: bold 66px/87px 'pt_serif', arial, helvetica, sans-serif;
   max-width: 567px;
-/*  height: 255px;*/
+  /*  height: 255px;*/
 }
 
 .main__title-text_highlight {
   background: linear-gradient(
-180deg
-,rgba(255,255,255,1) 15%, #ECF3FF 15%);
-}
-
-.main__subtitle {
-  margin: 0 0 42px 0px;
-  font:  22px/26px  'roboto400', arial, helvetica, sans-serif;
-  max-width: 455px;
-/*  height: 52px;*/
-}
-
-
-.main__button {
-  display: flex;
-  font:  18px/28px 'roboto500', arial, helvetica, sans-serif;
-  width: 250px;
-  height: 57px;
-  margin-top: 42px;
-  align-items: center;
-  margin-left: 0px;
-  padding-left: 22px;
-  color:  #fff;
-  background: #0056EC;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: opacity .5s;
-
-}
-
-
-.menu__button:hover {
-  opacity: .5;
-}
-
-.end {
-  width: 100%;
-  /*height: 8px;
-  border-radius: 50%;
-  /*opacity: .7;
-  margin-left: 500px;*/
-  display: flex; /* используем flex для центрирования содержимого */
-  justify-content: center;
-   margin-top: 132px;
-  /*padding-right: 100px;
-  margin-right: 100px;
-/*  padding-left:  100px;*/
-}
-
-.end__item {
-  height: 8px;
-  width: 8px;
-  background-color: #C8DBFB;
-/*  background-color: red;*/
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 4px;
-  opacity: .7;
-/*  margin-top: 1%;*/
-}
-
-
-
-/*для макета менее 13668px по ширине*/
-@media (max-width: 1400px) {
-
-  .wrapper {
-   max-width: 90%;
-   padding-left: 0px;
-}
- .header{
-   margin-bottom: 0px;
-   padding-left: 23px;
-   margin-left: 0px;
- }
-  .menu {
-    margin-right: 30px;
+    180deg
+    ,rgba(255,255,255,1) 15%, #ECF3FF 15%);
   }
-
-  .menu__item {
-    font: 500 14px/16px "roboto500", arial, helvetica, sans-serif;
-    margin: 1px 3px 0 23px;
-  }
-
-
-.main {
-  /*   padding: 0 43% 100px 0;
-     padding-top: 0px;*/
-  /*   padding: 30px 3% 0px 23px;*/
-  /*   background-size: 53%;
-     background-position: bottom 41px right 37px;*/
-  /*   border: dashed 1px red;*/
-    margin-left: 21px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-top: 29px;
-
-   }
-
-   .main__title {
-margin: 0px 0 38px 0;
-/*  padding-left: 1px;
-  padding-right: 1px*/
-     font: bold 50px/66px 'pt_serif', arial, helvetica, sans-serif;
-     max-width: 434px;
-/*   height: 195px;*/
-/*     padding-top: 20px;*/
-   }
-   .main__subtitle {
-  /*  margin: 0 0 40px 0px;*/
-  word-spacing: 0.7px;
-    padding-left: 1px;
-    padding-top: 1px;
-/*margin-left: 0;*/
-     font:  18px/21px  'roboto400', arial, helvetica, sans-serif;
-     max-width: 367px;
-  /*   height: 43px;*/
-   }
-
-/*   .main__button {
-/*   padding-right: 14px;
-   padding-bottom: 12px;*/
-/*   padding: 15px 21px;
-     font:  14px/16px 'roboto500', arial, helvetica, sans-serif;
-    max-width: 168px;
-    /*  color:  #fff;
-   /*  background: #0056EC;
-     text-decoration: none;
-     border-radius: 4px;
-     transition: opacity .5s;*/
-/*}*/
-
-.main__button {
-  display: flex;
-  font:  14px/16px 'roboto500', arial, helvetica, sans-serif;
-  width: 193px;
-  height: 44px;
-  margin-top: 32px;
-  align-items: center;
-  margin-left: 2px;
-  padding-left: 16px;
-
-}
-
-
-
-   .main__img {
-     width: 515px;
-     height: 515px;
-     padding-top: 20px;
-     padding-left: 20px;
-      margin-left:0px;
-     margin-right: 28px;
-     margin-top:10px;
-     margin-bottom:4px;
-}
-  .end {
-    padding-right: 0px;
-    margin-top: 35px;
-  }
-}
-
-
-
-
-@media (max-width:1050px) {
-  .wrapper {
-  /*  margin: auto;*/
-   max-width: 97%;
-/*  margin-right: 162px;*/
-/*padding-top: 10px;
-padding-bottom: 10px;*/
-  /*margin-right: -2px;*/
-  margin-right:13px;
-  margin-left: 15px;
-  margin-top: -5px;
- 1px red;
-}
-
-.header {
-  margin-bottom: 10px;
-  padding-left: 20px;
-/*  padding-top: 10px;
-  padding-bottom: 10px;*/
-
-}
-
-.logo__text{
-  margin-right: 0px;
-  margin-top: 3px;
-  padding-top: 0px;
-  padding-right: 0px;
-
-}
-
-    .menu {
-    padding-top: 10px;
-    padding-right: 0px;
-    margin-right: 21px;
-  }
-
-
-.menu__item {
-  position: relative;
-  /*margin-right: 26px;*/
-  margin: 0 3px 0 23px;
-  font: 500 14px/16px 'roboto500', arial, helvetica, sans-serif;
-  color: #000;
-  text-decoration: none;
-  transition: opacity .5s;
-}
-
-.main {
-  padding: 0 0 0px 0;
-/*  padding-top: 0px;
-  padding: 178px 65% 100px 0;*/
-  background-size: 53%;
-  background-position: bottom 41px right 37px;
-/*  border: dashed 1px yellow;*/
-  margin-right:23px;
-  margin-top: 17px;
-}
-
-.main__title {
-  margin: 14px 0 37px 0;
-  font: bold 50px/66px 'pt_serif', arial, helvetica, sans-serif;
-  max-width: 434px;
-/*  height: 195px;*/
-  padding-top: 0px;
-}
-.main__subtitle {
-/* margin: 0 0 41px 0px;*/
- margin-left: -0.5px;
-  font:  18px/22px  'roboto400', arial, helvetica, sans-serif;
-  max-width: 367px;
-  word-spacing: 0.66px;
-
-/*  height: 43px;*/
-}
-
-/*.main__button {
-
-  padding-right: 23px;
-  font:  14px/16px 'roboto500', arial, helvetica, sans-serif;
-/*  color:  #fff;
-/*  background: #0056EC;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: opacity .5s;*/
-/*}*/
-
-.main__button {
-  display: flex;
-  width: 194px;
-  height: 44px;
-  margin-top: -1px;
-  align-items: center;
-  text-align: center;
-  margin-left: 0px;
-  padding-left: 16px;
-
-}
-
-.main__img {
-  width: 515px;
-  height: 515px;
-/*padding-top: 34px;
-  padding-left: 20px;*/
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 24px;
-}
-.end {
- padding-right: 0px;
- margin-top: 35px;
-}
-}
-
-
-
-
-/*для макета менее 768px по ширине*/
-@media (max-width: 768px) {
-  /*скрываем меню*/
-/*.body {
-  overflow-y: hidden;
-}*/
-
-
-  .menu {
-    display: none;
-  }
-/*  .hamburger-menu {
-    display: block;
-  }*/
-
-  /*добавляем отсуп блоку main*/
-  .header {
-    margin-bottom: 14px;
-  }
-
-  /*картинку переносим вверх блока по центру*/
-  .main {
-  flex-direction: column-reverse;
-
-  text-align: center;
-  padding: 0% 0 0;
-  background-size: 98%;
-  background-position: top center;
-  background-position-y: 0px;
-}
-
-.main__img {
-  width: 263px;
-  height: 263px;
-/*padding-top: 34px;
-  padding-left: 20px;*/
-  margin-left: 0px;
-  margin-right: -87px;
-  margin-top: -23px;
-}
-
-
-
-  /*меняем шрифты для основного заголовка, подзаголовка и кнопки как в макете
-  на мобильном устройтсве*/
-  .main__title {
-    margin-top: -81px;
-    margin-bottom: 31px;
-    margin-left: 11px;
-    max-width: 267px;
-  /*  height: 96px;*/
-    word-wrap: 10px;
-    font: bold 30px/40px 'pt_serif', arial, helvetica, sans-serif;
-  }
-
-  .main__title-text_highlight{
-  /*  background-position: bottom 10px right 20px;*/
-  background: linear-gradient(
-180deg
-,rgba(255,255,255,1) 15%, #ECF3FF 15%);
-}
 
   .main__subtitle {
-    margin: 0px 0px 28px 0px;
-    max-width: 247px;
-    /*height: 57px;*/
-    word-spacing: 0.2px;
-    padding-left: 22px;
-    font: 500 16px/19px 'roboto500', arial, helvetica, sans-serif;
+    margin: 0 0 42px 0px;
+    font:  22px/26px  'roboto400', arial, helvetica, sans-serif;
+    max-width: 455px;
+    /*  height: 52px;*/
   }
+
 
   .main__button {
-    margin-bottom: 43px;
-    padding-right: 0px;
-    padding-left: 15px;
-    margin-left: 39px;
-    width: 68%;
-    font: 500 14px/16px 'roboto500', arial, helvetica, sans-serif;
+    display: flex;
+    font:  18px/28px 'roboto500', arial, helvetica, sans-serif;
+    width: 250px;
+    height: 57px;
+    margin-top: 42px;
+    align-items: center;
+    margin-left: 0px;
+    padding-left: 22px;
+    color:  #fff;
+    background: #0056EC;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: opacity .5s;
+
   }
 
-/*убираем текст из логотипа и двигаем логотип*/
-.logo {
-  margin-top: -17px;
-  margin-left: -21px;
-  margin-bottom: -19px;
 
-  /*padding-top: 21px;*/
-}
-.logo__text {
-  display: none;
-}
-.hamburger-menu {
-  display: block;
-/*  position: relative;*/
-  margin: -29px 6px 0 0;
-/*  border: dashed 1px red;*/
+  .menu__button:hover {
+    opacity: .5;
   }
 
-  .end{
+  .end {
+    width: 100%;
+    /*height: 8px;
+    border-radius: 50%;
+    /*opacity: .7;
+    margin-left: 500px;*/
+    display: flex; /* используем flex для центрирования содержимого */
+    justify-content: center;
+    margin-top: 132px;
+    /*padding-right: 100px;
+    margin-right: 100px;
+    /*  padding-left:  100px;*/
+  }
+
+  .end__item {
+    height: 8px;
+    width: 8px;
+    background-color: #C8DBFB;
+    /*  background-color: red;*/
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 4px;
+    opacity: .7;
+    /*  margin-top: 1%;*/
+  }
+
+
+
+  /*для макета менее 13668px по ширине*/
+  @media (max-width: 1400px) {
+
+    .wrapper {
+      max-width: 90%;
+      padding-left: 0px;
+    }
+    .header{
+      margin-bottom: 0px;
+      padding-left: 23px;
+      margin-left: 0px;
+    }
+    .menu {
+      margin-right: 30px;
+    }
+
+    .menu__item {
+      font: 500 14px/16px "roboto500", arial, helvetica, sans-serif;
+      margin: 1px 3px 0 23px;
+    }
+
+
+    .main {
+      /*   padding: 0 43% 100px 0;
+      padding-top: 0px;*/
+      /*   padding: 30px 3% 0px 23px;*/
+      /*   background-size: 53%;
+      background-position: bottom 41px right 37px;*/
+      /*   border: dashed 1px red;*/
+      margin-left: 21px;
+      margin-bottom: 0px;
+      margin-right: 0px;
+      margin-top: 29px;
+
+    }
+
+    .main__title {
+      margin: 0px 0 38px 0;
+      /*  padding-left: 1px;
+      padding-right: 1px*/
+      font: bold 50px/66px 'pt_serif', arial, helvetica, sans-serif;
+      max-width: 434px;
+      /*   height: 195px;*/
+      /*     padding-top: 20px;*/
+    }
+    .main__subtitle {
+      /*  margin: 0 0 40px 0px;*/
+      word-spacing: 0.7px;
+      padding-left: 1px;
+      padding-top: 1px;
+      /*margin-left: 0;*/
+      font:  18px/21px  'roboto400', arial, helvetica, sans-serif;
+      max-width: 367px;
+      /*   height: 43px;*/
+    }
+
+    /*   .main__button {
+    /*   padding-right: 14px;
+    padding-bottom: 12px;*/
+    /*   padding: 15px 21px;
+    font:  14px/16px 'roboto500', arial, helvetica, sans-serif;
+    max-width: 168px;
+    /*  color:  #fff;
+    /*  background: #0056EC;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: opacity .5s;*/
+    /*}*/
+
+    .main__button {
+      display: flex;
+      font:  14px/16px 'roboto500', arial, helvetica, sans-serif;
+      width: 193px;
+      height: 44px;
+      margin-top: 32px;
+      align-items: center;
+      margin-left: 2px;
+      padding-left: 16px;
+
+    }
+
+
+
+    .main__img {
+      width: 515px;
+      height: 515px;
+      padding-top: 20px;
+      padding-left: 20px;
+      margin-left:0px;
+      margin-right: 28px;
+      margin-top:10px;
+      margin-bottom:4px;
+    }
+    .end {
+      padding-right: 0px;
+      margin-top: 35px;
+    }
+  }
+
+
+
+
+  @media (max-width:1050px) {
+    .wrapper {
+      /*  margin: auto;*/
+      max-width: 97%;
+      /*  margin-right: 162px;*/
+      /*padding-top: 10px;
+      padding-bottom: 10px;*/
+      /*margin-right: -2px;*/
+      margin-right:13px;
+      margin-left: 15px;
+      margin-top: -5px;
+      1px red;
+    }
+
+    .header {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      /*  padding-top: 10px;
+      padding-bottom: 10px;*/
+
+    }
+
+    .logo__text{
+      margin-right: 0px;
+      margin-top: 3px;
+      padding-top: 0px;
+      padding-right: 0px;
+
+    }
+
+    .menu {
+      padding-top: 10px;
+      padding-right: 0px;
+      margin-right: 21px;
+    }
+
+
+    .menu__item {
+      position: relative;
+      /*margin-right: 26px;*/
+      margin: 0 3px 0 23px;
+      font: 500 14px/16px 'roboto500', arial, helvetica, sans-serif;
+      color: #000;
+      text-decoration: none;
+      transition: opacity .5s;
+    }
+
+    .main {
+      padding: 0 0 0px 0;
+      /*  padding-top: 0px;
+      padding: 178px 65% 100px 0;*/
+      background-size: 53%;
+      background-position: bottom 41px right 37px;
+      /*  border: dashed 1px yellow;*/
+      margin-right:23px;
+      margin-top: 17px;
+    }
+
+    .main__title {
+      margin: 14px 0 37px 0;
+      font: bold 50px/66px 'pt_serif', arial, helvetica, sans-serif;
+      max-width: 434px;
+      /*  height: 195px;*/
+      padding-top: 0px;
+    }
+    .main__subtitle {
+      /* margin: 0 0 41px 0px;*/
+      margin-left: -0.5px;
+      font:  18px/22px  'roboto400', arial, helvetica, sans-serif;
+      max-width: 367px;
+      word-spacing: 0.66px;
+
+      /*  height: 43px;*/
+    }
+
+    /*.main__button {
+
+    padding-right: 23px;
+    font:  14px/16px 'roboto500', arial, helvetica, sans-serif;
+    /*  color:  #fff;
+    /*  background: #0056EC;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: opacity .5s;*/
+    /*}*/
+
+    .main__button {
+      display: flex;
+      width: 194px;
+      height: 44px;
+      margin-top: -1px;
+      align-items: center;
+      text-align: center;
+      margin-left: 0px;
+      padding-left: 16px;
+
+    }
+
+    .main__img {
+      width: 515px;
+      height: 515px;
+      /*padding-top: 34px;
+      padding-left: 20px;*/
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 24px;
+    }
+    .end {
+      padding-right: 0px;
+      margin-top: 35px;
+    }
+  }
+
+
+
+
+  /*для макета менее 768px по ширине*/
+  @media (max-width: 768px) {
+    /*скрываем меню*/
+    /*.body {
+    overflow-y: hidden;
+    }*/
+
+
+    .menu {
+      display: none;
+    }
+    /*  .hamburger-menu {
+    display: block;
+    }*/
+
+    /*добавляем отсуп блоку main*/
+    .header {
+      margin-bottom: 14px;
+    }
+
+    /*картинку переносим вверх блока по центру*/
+    .main {
+      flex-direction: column-reverse;
+
+      text-align: center;
+      padding: 0% 0 0;
+      background-size: 98%;
+      background-position: top center;
+      background-position-y: 0px;
+    }
+
+    .main__img {
+      width: 263px;
+      height: 263px;
+      /*padding-top: 34px;
+      padding-left: 20px;*/
+      margin-left: 0px;
+      margin-right: -87px;
+      margin-top: -23px;
+    }
+
+
+
+    /*меняем шрифты для основного заголовка, подзаголовка и кнопки как в макете
+    на мобильном устройтсве*/
+    .main__title {
+      margin-top: -81px;
+      margin-bottom: 31px;
+      margin-left: 11px;
+      max-width: 267px;
+      /*  height: 96px;*/
+      word-wrap: 10px;
+      font: bold 30px/40px 'pt_serif', arial, helvetica, sans-serif;
+    }
+
+    .main__title-text_highlight{
+      /*  background-position: bottom 10px right 20px;*/
+      background: linear-gradient(
+        180deg
+        ,rgba(255,255,255,1) 15%, #ECF3FF 15%);
+      }
+
+      .main__subtitle {
+        margin: 0px 0px 28px 0px;
+        max-width: 247px;
+        /*height: 57px;*/
+        word-spacing: 0.2px;
+        padding-left: 22px;
+        font: 500 16px/19px 'roboto500', arial, helvetica, sans-serif;
+      }
+
+      .main__button {
+        margin-bottom: 43px;
+        padding-right: 0px;
+        padding-left: 15px;
+        margin-left: 39px;
+        width: 68%;
+        font: 500 14px/16px 'roboto500', arial, helvetica, sans-serif;
+      }
+
+      /*убираем текст из логотипа и двигаем логотип*/
+      .logo {
+        margin-top: -17px;
+        margin-left: -21px;
+        margin-bottom: -19px;
+
+        /*padding-top: 21px;*/
+      }
+      .logo__text {
+        display: none;
+      }
+      .hamburger-menu {
+        display: block;
+        /*  position: relative;*/
+        margin: -29px 6px 0 0;
+        /*  border: dashed 1px red;*/
+      }
+
+      .end{
+        display: none;
+      }
+
+      /*создаем бургер-меню*/
+
+      /* скрываем чекбокс */
+      #menu__toggle {
+        opacity: 0;
+        /*display: none;*/
+
+      }
+
+
+      /* стилизуем кнопку */
+      .menu__btn {
+        /*  border: dashed 1px red;*/
+        display: flex; /* используем flex для центрирования содержимого */
+        align-items: center;  /* центрируем содержимое кнопки */
+        position: absolute;
+        /*position: fixed;*/
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+
+        /*  margin-left: 325px;*/
+        /*  margin-top: 22px;*/
+      }
+
+      /* добавляем "гамбургер" */
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #0056EC;
+        opacity: 1;
+        transition-duration: .5s;
+      }
+
+      .menu__btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }
+
+
+      /* контейнер меню */
+      .menu__box {
+        /* border: dashed 1px orange*/
+        margin: auto;
+        display: block;
+        /*  position: fixed;*/
+        position: absolute;
+        /*по умолчаннию будет скрыто*/
+        visibility: hidden;
+        top: 0;
+        /*  left: -100%;*/
+        width: 100%;
+        height: 100%;
+        /*margin-top: 25*/
+        padding: 171px 0;
+        list-style: none;
+        text-align: center;
+        /*  background-color: #ECEFF1;*/
+        word-wrap: 10px;
+        background-color: white;
+        opacity: 1.;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+      }
+
+      /* элементы меню */
+      .menu-burger__item {
+        display: block;
+        padding: 13px 24px;
+        color: #333;
+        font-size: 30px;
+        font-weight: 600;
+        text-decoration: none;
+        font: bold 30px/35px 'roboto500', arial, helvetica, sans-serif;
+
+      }
+      .menu-burger__item:hover {
+        background-color: #CFD8DC;
+
+      }
+
+
+      #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+      }
+
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        transition-duration: .25s;
+      }
+      .menu__box {
+        transition-duration: .25s;
+      }
+      .menu__item {
+        transition-duration: .25s;
+      }
+    }
+
+    /*для макета более 768px по ширине*/
+    @media (min-width: 768px) {
+      /*скрываем меню*/
+      .hamburger-menu {
+        display: none;
+      }
+    }
+    /*  .menu__btn {
     display: none;
   }
-
-/*создаем бургер-меню*/
-
-/* скрываем чекбокс */
-#menu__toggle {
-  opacity: 0;
-/*display: none;*/
-
-}
-
-
-/* стилизуем кнопку */
-.menu__btn {
-/*  border: dashed 1px red;*/
-  display: flex; /* используем flex для центрирования содержимого */
-  align-items: center;  /* центрируем содержимое кнопки */
- position: absolute;
- /*position: fixed;*/
-  width: 26px;
-  height: 26px;
-  cursor: pointer;
-  z-index: 1;
-
-/*  margin-left: 325px;*/
-/*  margin-top: 22px;*/
-}
-
-/* добавляем "гамбургер" */
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-display: block;
-position: absolute;
-width: 100%;
-height: 3px;
-background-color: #0056EC;
-opacity: 1;
-transition-duration: .5s;
-}
-
-.menu__btn > span::before {
-  content: '';
-  top: -8px;
-}
-.menu__btn > span::after {
-  content: '';
-  top: 8px;
-}
-
-
-/* контейнер меню */
-.menu__box {
-/* border: dashed 1px orange*/
- margin: auto;
-  display: block;
-/*  position: fixed;*/
-position: absolute;
-  /*по умолчаннию будет скрыто*/
-  visibility: hidden;
-  top: 0;
-/*  left: -100%;*/
-  width: 100%;
-  height: 100%;
-  /*margin-top: 25*/
-  padding: 171px 0;
-  list-style: none;
-  text-align: center;
-  /*  background-color: #ECEFF1;*/
-  word-wrap: 10px;
-  background-color: white;
-  opacity: 1.;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-}
-
-/* элементы меню */
-.menu-burger__item {
-  display: block;
-  padding: 13px 24px;
-  color: #333;
-  font-size: 30px;
-  font-weight: 600;
-  text-decoration: none;
-  font: bold 30px/35px 'roboto500', arial, helvetica, sans-serif;
-
-}
-.menu-burger__item:hover {
- background-color: #CFD8DC;
-
-}
-
-
-#menu__toggle:checked ~ .menu__btn > span {
-  transform: rotate(45deg);
-}
-#menu__toggle:checked ~ .menu__btn > span::before {
-  top: 0;
-  transform: rotate(0);
-}
-#menu__toggle:checked ~ .menu__btn > span::after {
-  top: 0;
-  transform: rotate(90deg);
-}
-#menu__toggle:checked ~ .menu__box {
-  visibility: visible;
-  left: 0;
-}
-
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-  transition-duration: .25s;
-}
-.menu__box {
-  transition-duration: .25s;
-}
-.menu__item {
-  transition-duration: .25s;
-}
-}
-
-/*для макета более 768px по ширине*/
-@media (min-width: 768px) {
-  /*скрываем меню*/
-  .hamburger-menu {
-      display: none;
-    }
-  }
-  /*  .menu__btn {
-      display: none;
-    }
-    .menu__box {
-      display: none;
-    }*/
+  .menu__box {
+  display: none;
+  }*/
