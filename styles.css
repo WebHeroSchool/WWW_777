@@ -237,10 +237,7 @@
       height: 515px;
       padding-top: 20px;
       padding-left: 20px;
-      margin-left:0px;
-      margin-right: 28px;
-      margin-top:10px;
-      margin-bottom:4px;
+      margin: 10px 28px 4px 0;
     }
 
     .end {
@@ -253,9 +250,7 @@
   @media (max-width:1050px) {
     .wrapper {
       max-width: 97%;
-      margin-right:13px;
-      margin-left: 15px;
-      margin-top: -5px;
+      margin: -5px 13px 0px 15px;
     }
 
     .header {
@@ -286,7 +281,6 @@
     }
 
     .main {
-      padding: 0 0 0px 0;
       background-size: 53%;
       background-position: bottom 41px right 37px;
       margin-right:23px;
@@ -297,7 +291,6 @@
       margin: 14px 0 37px 0;
       font: bold 50px/66px 'pt_serif', arial, helvetica, sans-serif;
       max-width: 434px;
-      padding-top: 0px;
     }
 
     .main__subtitle {
