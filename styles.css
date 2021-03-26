@@ -7,11 +7,11 @@
 }
 
 .logo,
-.menu {display: inline-block;}
+.menu { display: inline-block;}
 
 .hamburger-menu {
   display: none;
-}
+} 
 
 .menu__box {
   display: none;
