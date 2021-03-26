@@ -40,7 +40,7 @@
   transition: opacity 0.5s;
 }
 
-.menu__item: after {
+.menu__item::after {
   position: absolute;
   display: block;
   content: "";
@@ -55,7 +55,7 @@
   opacity: 0.5;
 }
 
-.menu__item:hover:after, .menu__item_active:after {
+.menu__item:hover::after, .menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
@@ -95,7 +95,7 @@
 }
 
 .Logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
 }
 
 .Logo__circle_color_blue {
@@ -304,7 +304,6 @@
   }
 }
 
-
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -460,9 +459,11 @@
   .menu__btn > span::after {
     transition-duration: 0.25s;
   }
+
   .menu__box {
     transition-duration: 0.25s;
   }
+
   .menu__item {
     transition-duration: 0.25s;
   }
