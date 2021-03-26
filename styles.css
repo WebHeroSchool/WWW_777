@@ -552,8 +552,8 @@
         /*  border: dashed 1px red;*/
         display: flex; /* используем flex для центрирования содержимого */
         align-items: center;  /* центрируем содержимое кнопки */
-        position: absolute;
-        /*position: fixed;*/
+/*position: absolute*/
+        position: fixed;
         width: 26px;
         height: 26px;
         cursor: pointer;
