@@ -594,7 +594,7 @@
         /*  position: fixed;*/
         position: absolute;
         /*по умолчаннию будет скрыто*/
-        visibility: hidden;
+      /*  visibility: hidden;*/
         top: 0;
         /*  left: -100%;*/
         width: 100%;
