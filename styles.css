@@ -590,11 +590,12 @@
       .menu__box {
         /* border: dashed 1px orange*/
         margin: auto;
-        display: block;
+        /*display: block;*/
         /*  position: fixed;*/
         position: absolute;
         /*по умолчаннию будет скрыто*/
       /*  visibility: hidden;*/
+        display: none;
         top: 0;
         /*  left: -100%;*/
         width: 100%;
