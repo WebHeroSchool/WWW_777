@@ -11,7 +11,13 @@
   /* border: dashed 1px red;*/
 }
 
+
+
 .hamburger-menu {
+  display: none;
+}
+
+.menu__box {
   display: none;
 }
 
