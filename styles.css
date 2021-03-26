@@ -640,7 +640,8 @@
         transform: rotate(90deg);
       }
       #menu__toggle:checked ~ .menu__box {
-        visibility: visible;
+      /*  visibility: visible;*/
+        display: block;
         left: 0;
       }
 
