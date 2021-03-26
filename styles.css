@@ -6,9 +6,8 @@
   margin: 0 181px 0 187px;
 }
 
-.logo, .menu {
-  display: inline-block;
-}
+.logo,
+.menu {display: inline-block;}
 
 .hamburger-menu {
   display: none;
@@ -416,8 +415,8 @@
     text-align: center;
     word-wrap: 10px;
     background-color: white;
-    opacity: 1.0;
-    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+    opacity: 1;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
   }
 
   .menu-burger__item {
