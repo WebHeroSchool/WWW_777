@@ -1,17 +1,16 @@
 .title {
   font-family: Roboto, sans-serif;
 }
+
 .wrapper {
   margin: 0 181px 0 187px;
   /*  max-width: 80%;*/
   /* border: dashed 1px red;*/
 }
-.logo, .menu, /*.hamburger-menu*/ {
+
+.logo, .menu, {
   display: inline-block;
-  /* border: dashed 1px red;*/
 }
-
-
 
 .hamburger-menu {
   display: none;
@@ -595,7 +594,7 @@
       position: absolute;
         /*по умолчаннию будет скрыто*/
       /*  visibility: hidden;*/
-      
+
         display: none;
         top: 0;
         /*  left: -100%;*/
