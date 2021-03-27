@@ -334,7 +334,7 @@
   }
 
   .main__title-text_highlight {
-    background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
+    background: linear-gradient (180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
   }
 
   .main__subtitle {
@@ -400,6 +400,7 @@
     content: '';
     top: -8px;
   }
+
   .menu__btn > span::after {
     content: '';
     top: 8px;
